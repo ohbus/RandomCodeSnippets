@@ -1,1 +1,1 @@
-# RandomCodeSnippets
+# Random Code Snippets
