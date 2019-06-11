@@ -3,12 +3,12 @@
 using namespace std;
 vector<long long> v;
 
-long long t,n,k,x,maxi,sum,sum2,sum1,a[200000],b[200000];
+long long t,n,k,x,mi,sum,sum1,sum2,a[200000],b[200000];
 
 int main()  {
     cin>>t;
     while(t--){
-        maxi=0;
+        mi=0;
         sum=0;
         sum1=0;
         sum2=0;
@@ -29,14 +29,14 @@ int main()  {
             for(int i=0;i<v.size();i++) {
                 sum1+=v[i];
                 if(i%2==1){
-                    maxi=max(maxi,sum1);
+                    mi=max(mi,sum1);
                 }
             }
         }
         else    {
             for(int i=0;i<n;i++)    {
                 sum2+=v[i];
-                maxi=max(maxi,sum2);
+                mi=max(mi,sum2);
             }
         }
         if(n==k)    {
@@ -47,7 +47,7 @@ int main()  {
             cout<<max(sum3,sum)<<endl;
             continue;
         }
-        cout<<sum+maxi<<endl;
+        cout<<sum+mi<<endl;
     }
     return 0;
 }
