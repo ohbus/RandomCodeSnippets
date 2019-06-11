@@ -1,1 +1,1 @@
-Will be updated after Contest end
+Will be updated after Contest ends
