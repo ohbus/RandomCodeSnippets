@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.1}{Sexy\040Prime}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Any\040set\040of\040two\040number\040can\040be\040a\040sexy\040prime\040number\040if\040the\040differnce\040between\040the\040two\040numbers\040are\040exactly\0406}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Example\040:\040\(\0405\040,\04011\040\)\040and\040\(\04023\040,\04029\040\)}{subsection.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{Original\040Constrains\040:\040Lower\040Limit\040-\0402\040;\040Upper\040Limit\040-\0401,000,000,000}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Input\040Format\040:\040a\040b}{}% 5
+\BOOKMARK [2][-]{subsubsection.2.0.1}{Where\040a\040is\040the\040lower\040limit\040and\040b\040is\040the\040upper\040limit}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Example\0400:}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Input\040:\0404\04040}{subsection.2.1}% 8
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Output\040:\0407}{subsection.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.2}{Explaination\040:}{section.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Number\040of\040sets\040of\040sexy\040prime\040from\0404\040to\04040\040are\040as\040follows\040-}{subsection.2.2}% 11
