@@ -10,7 +10,7 @@ public class WhiteSpace {
 
         for( i = 0 ; i < len ; i++ )    
             if (s.charAt(i) == ' ')
-                space++;
+                space++ ;
         
         System.out.println("Characters : "+(len-space)+" Spaces : "+space) ;
     }
