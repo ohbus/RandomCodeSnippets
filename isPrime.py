@@ -20,5 +20,7 @@ def isPrime(n):
         if n%(f+2) == 0:
             return False
         f +=6
-        
+
     return True  
+
+isPrime(5)
