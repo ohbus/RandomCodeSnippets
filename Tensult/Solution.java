@@ -5,7 +5,7 @@
  * "India is a great country and I will work towards making our country the better India”
  * 
  * Output for this statement :
- * country, india, towards, making, better, great, will, work, and, our, the, is, a, i,
+ * country, india, towards, making, better, great, will, work, and, our....
  */
 
 import java.util.*;
@@ -41,7 +41,7 @@ class Solution  {
         ArrayList<ArrayList> set = new ArrayList<ArrayList>(0);
         
         for (j = size-1 ; j > 0  ; j--) {
-            ArrayList<String> subset = new ArrayList<String>(0); //group by freq
+            ArrayList<String> subset = new ArrayList<String>(0);		//group by freq
             for (i = 0 ; i < size ; i++)
                 if (freqMap.get(arr[i])==j)
                     subset.add(arr[i]);
@@ -52,7 +52,7 @@ class Solution  {
                 if (!subsetout.contains(element))
                     subsetout.add(element);
             
-            subsetout.sort(Comparator.comparing(String::length).reversed()); //sort by size
+            subsetout.sort(Comparator.comparing(String::length).reversed());	//sort by size
                     
             if(subsetout.size() > 0)
                 set.add(subsetout);
